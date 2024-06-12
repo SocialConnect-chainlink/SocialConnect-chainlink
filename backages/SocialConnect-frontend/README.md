@@ -6,6 +6,11 @@
 
 SocialConnect is a social media platform powered by DeFi. It enables people to connect using financial mechanisms relying on smart contracts. Users randomly discover new friends, unlock exclusive content, and trade these connections (in the form of tokens). The platform gamifies global connections and interactions, making social media more exciting.
 
+![System ](https://github.com/samarabdelhameed/pics/blob/main/social%20connect.png
+)
+
+
+
 ## System Architecture
 ![System Architecture](https://github.com/samarabdelhameed/pics/blob/main/conectdiagram.png?raw=true)
 
