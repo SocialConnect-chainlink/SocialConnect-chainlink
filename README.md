@@ -1,9 +1,9 @@
 # SocialConnect
+![logo ](https://github.com/samarabdelhameed/pics/blob/main/social.png)
 
 ## Vision
 Connect with friends globally through the power of decentralized finance.
-![System ](https://github.com/samarabdelhameed/pics/blob/main/social%20connect.png
-)
+![System ](https://github.com/samarabdelhameed/pics/blob/main/social%20connect.png)
 
 
 ## System Architecture
