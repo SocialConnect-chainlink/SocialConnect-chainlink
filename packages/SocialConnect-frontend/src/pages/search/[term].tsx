@@ -46,14 +46,7 @@ export default function Search() {
         </div>
       ) : (
         <div className="h-[250px] w-full flex flex-col space-y-10 items-center justify-center">
-          <Image
-            className="cursor-pointer opacity-50"
-            onClick={() => router.push("/")}
-            src="/logo.svg"
-            width={128}
-            height={128}
-            alt="friendfi logo"
-          />
+          
           <p className="text-lg">
             User with the name{" "}
             <span className="text-yellow-500 font-bold">{query.term}</span> is

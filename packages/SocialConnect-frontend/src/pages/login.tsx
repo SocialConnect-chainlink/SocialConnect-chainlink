@@ -12,10 +12,10 @@ export default function Login() {
   return (
     <div className="h-full w-full flex flex-col pt-[100px] pb-[80px] font-sans">
       <div className="flex flex-col items-center">
-        <Image src="/logo.svg" width={90} height={90} alt="friendfi logo" />
-        <p className="font-bold text-3xl mt-[30px]">Fi your Friend</p>
+       
+        <p className="font-bold text-3xl mt-[30px]">DeFi Social Connect</p>
         <p className="px-[100px] text-center mt-[5px] text-sm text-gray-500">
-          You’ll use ETH on mainnet to buy and sell passes on FriendFi
+        You'll use ETH on the mainnet to buy and sell passes on DeFi Social Connect.
         </p>
       </div>
       <div className="mt-[270px]">
@@ -35,8 +35,7 @@ export default function Login() {
           Sign In
         </FFButton>
         <p className="text-center text-xs px-[80px] mt-16 text-gray-400">
-          By continuing, you agree to FriendFi’s Terms of Service and confirm
-          that you are at least 13 years old.
+        By proceeding, you agree to DeFi Connect’s Terms of Service and confirm that you are at least 18 years old
         </p>
       </div>
     </div>

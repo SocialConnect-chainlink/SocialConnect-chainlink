@@ -22,7 +22,7 @@ const Search = () => {
         value={search}
         onChange={(e) => setSearch(e.target.value)}
         type="text"
-        placeholder="Search for a friends.."
+        placeholder="Discover new connections..."
         className="rounded-3xl border bg-gray-100 border-gray-100 px-5 pr-[44px] py-2 focus:outline-none focus:border-yellow-500"
       />
       <div

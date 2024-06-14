@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@particle-network/auth-core": "^1.4.4",
+    "@particle-network/connectkit": "^1.4.5"
+  }
+}

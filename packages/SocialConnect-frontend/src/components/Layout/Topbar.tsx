@@ -1,14 +1,14 @@
 import React, { useMemo } from "react";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { useFriendFi } from "@/hooks/useFriendFi";
+import { useSocialConnect } from "@/hooks/useSocialConnect";
 import { Search, Notification } from "../Icon";
 import { useRouter } from "next/router";
 
 // TODO: handle this
 export default function Topbar() {
   const pathname = usePathname();
-  const {} = useFriendFi();
+  const {} = useSocialConnect();
   const router = useRouter();
 
   const parsePathName = pathname?.split("/")[1];
@@ -19,15 +19,8 @@ export default function Topbar() {
         return (
           <div className="flex justify-between items-center pt-6">
             <div className="flex space-x-2">
-              <Image
-                className="cursor-pointer"
-                onClick={() => router.push("/")}
-                src="/logo.svg"
-                width={28}
-                height={28}
-                alt="friendfi logo"
-              />
-              <h1 className="text-2xl font-sans font-bold">friendfi</h1>
+             
+              <h1 className="text-2xl font-sans font-bold">Social Connect </h1>
             </div>
 
             <div className="flex space-x-2">
@@ -42,13 +35,8 @@ export default function Topbar() {
           return (
             <div className="flex justify-between items-center pt-6">
               <div className="flex space-x-2">
-                <Image
-                  src="/logo.svg"
-                  width={28}
-                  height={28}
-                  alt="friendfi logo"
-                />
-                <h1 className="text-2xl font-sans font-bold">friendfi</h1>
+               
+                <h1 className="text-2xl font-sans font-bold">SocialConnect</h1>
               </div>
 
               <div className="flex space-x-2">
@@ -68,7 +56,7 @@ export default function Topbar() {
         return (
           <div className="flex justify-between items-center pt-6">
             {/* <div /> */}
-            <h1 className="text-lg font-sans font-medium">Friends</h1>
+            <h1 className="text-lg font-sans font-medium">Connections</h1>
             <div className="flex space-x-2">
               <Search />
               <Notification />
@@ -96,7 +84,7 @@ export default function Topbar() {
                 src="/logo.svg"
                 width={28}
                 height={28}
-                alt="friendfi logo"
+                alt="SocialConnect logo"
               />
               <h1 className="text-lg font-sans font-medium">Search</h1>
             </div>
@@ -115,7 +103,7 @@ export default function Topbar() {
       //           src="/logo.svg"
       //           width={28}
       //           height={28}
-      //           alt="friendfi logo"
+      //           alt="SocialConnect logo"
       //         />
       //         <h1 className="text-2xl font-sans font-bold">
       //           Menu

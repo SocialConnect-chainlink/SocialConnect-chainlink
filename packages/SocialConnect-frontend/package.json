@@ -10,8 +10,9 @@
   },
   "dependencies": {
     "@covalenthq/client-sdk": "^0.9.1",
+    "@particle-network/auth-core": "^1.4.4",
     "@particle-network/auth-core-modal": "^1.3.6",
-    "@particle-network/connectkit": "^1.3.5",
+    "@particle-network/connectkit": "^1.4.5",
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-icons": "^1.3.0",
     "@radix-ui/react-popover": "^1.0.7",
